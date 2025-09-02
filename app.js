@@ -225,7 +225,7 @@ if (operator == "+") {
 } else if (operator == "*") {
     console.log(num1 * num2);
 } else if (operator == "/") {
-    console.log(num1 / num2);
+    console.log((num1 / num2).toFixed(2));
 } else if (operator == "%") {
     console.log(num1 % num2);
 } else {
